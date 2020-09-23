@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="947" viewBox="0 0 1920 947">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="1920" height="947" fill="#22313e"/>
+    </clipPath>
+  </defs>
+  <g id="background_shrine" data-name="background shrine" clip-path="url(#clip-path)">
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="751" height="751" transform="translate(-201 467)" fill="#fff"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" width="751" height="751" transform="translate(-273 534)" fill="#071e30"/>
+  </g>
+</svg>
