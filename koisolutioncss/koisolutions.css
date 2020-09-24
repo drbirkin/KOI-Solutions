@@ -988,7 +988,7 @@ i:hover {
     height: 100vh;
     width: 100vw;
     background-color: #071E30;
-    z-index: -4;
+    z-index: -5;
   }
 
   /*navbar*/
@@ -1125,7 +1125,7 @@ i:hover {
   }
 
   .purchasemobile {
-    margin-top: 30px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
