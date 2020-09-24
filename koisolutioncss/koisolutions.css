@@ -12,6 +12,10 @@ p {
   text-align: left;
 }
 
+.mobilebackground {
+  display: none;
+}
+
 /*---navbar horizontal---*/
 .navbar {
   display: flex;
@@ -978,6 +982,15 @@ i:hover {
     overflow-x: hidden;
   }
 
+  .mobilebackground {
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #071E30;
+    z-index: -4;
+  }
+
   /*navbar*/
   .navbar {
     display: none;
@@ -1096,7 +1109,7 @@ i:hover {
   .koihomepage {
     margin-top: 10px;
     display: flex;
-    width: 400px;
+    width: 350px;
   }
 
   .homepage-wave {
