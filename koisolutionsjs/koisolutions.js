@@ -1,44 +1,38 @@
-<script>
-  $(".q1").click(function() {
-    $(".cost").slideToggle("slow");
+$(".q1").click(function () {
+  $(".cost").slideToggle("slow");
+});
+
+$(".q2").click(function () {
+  $(".restock").slideToggle("slow");
+});
+
+$(".q3").click(function () {
+  $(".support").slideToggle("slow");
+});
+
+
+$(document).ready(function () {
+  $("a").on('click', function (event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function () {
+        window.location.hash = hash;
+      });
+    }
   });
-</script>
+});
 
-<script>
-  $(".q2").click(function() {
-    $(".restock").slideToggle("slow");
-  });
-</script>
+var menu = "close";
+$(".mobile-navbar .menu-toggle").click(function () {
 
-<script>
-  $(".q3").click(function() {
-    $(".support").slideToggle("slow");
-  });
-</script>
-
-<script>
-  $(document).ready(function() {
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function() {
-
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      } // End if
-    });
-  });
-</script>
+  if (menu === "close") {
+    $(this).parent().next(".mobile-nav").css("transform", "translate(0, 0)");
+    menu = "open";
+  } else {
+    $(this).parent().next(".mobile-nav").css("transform", "translate(0, -999%)");
+    menu = "close";
+  }
+});

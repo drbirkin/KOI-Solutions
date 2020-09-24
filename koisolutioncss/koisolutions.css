@@ -1030,9 +1030,9 @@ i:hover {
     width: 100vw;
     height: 100vh;
     transform: translate(0, -999%);
-    -webkit-transition: all 0.6s ease-in-out;
-    -o-transition: all 0.6s ease-in-out;
-    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
     z-index: 2;
     padding: 30px 0 0 0;
   }
@@ -1094,7 +1094,7 @@ i:hover {
   }
 
   .koihomepage {
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     width: 400px;
   }
