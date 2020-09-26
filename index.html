@@ -13,6 +13,9 @@
     integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/6330df3579.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js">
+  </script>
+  <script src="koisolutionsjs\koisolutions.js"></script>
 </head>
 
 <body>
@@ -375,66 +378,6 @@
       </a>
     </div>
   </div>
-  <!--AOS-->
-  <script src="https://unpkg.com/aos@next/dist/aos.js">
-  </script>
-  <script>
-    AOS.init();
-  </script>
-  <!--javascript-->
-  <!--  <script>
-    function myFunction() {
-      document.getElementById("mobilesection").style.backgroundColor = "green";
-    }
-  </script> -->
-  <!--jquery-->
-  <script>
-    $(".q1").on("click", function () {
-      $(".cost").slideToggle("slow");
-    });
-  </script>
-
-  <script>
-    $(".q2").click(function () {
-      $(".restock").slideToggle("slow");
-    });
-  </script>
-
-  <script>
-    $(".q3").click(function () {
-      $(".support").slideToggle("slow");
-    });
-  </script>
-
-  <script>
-    $(document).ready(function () {
-      $("a").on('click', function (event) {
-        if (this.hash !== "") {
-          event.preventDefault();
-          var hash = this.hash;
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function () {
-            window.location.hash = hash;
-          });
-        }
-      });
-    });
-  </script>
-
-  <script>
-    var menu = "close";
-    $(".mobile-navbar .menu-toggle").click(function () {
-
-      if (menu === "close") {
-        $(this).parent().next(".mobile-nav").css("transform", "translate(0, 0)");
-        menu = "open";
-      } else {
-        $(this).parent().next(".mobile-nav").css("transform", "translate(0, -999%)");
-        menu = "close";
-      }
-    });
-  </script>
 
 </body>
 

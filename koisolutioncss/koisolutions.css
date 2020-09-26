@@ -1021,7 +1021,7 @@ i:hover {
   }
 
   .mobile-navbar .mobile-nav {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -1113,7 +1113,7 @@ i:hover {
   }
 
   .purchasemobile {
-    margin-top: 20px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1133,9 +1133,10 @@ i:hover {
     opacity: 1;
     font-size: 20px;
     padding-right: 5px;
+    border-color: none;
   }
 
-  .purchasemobile:active {
+  .purchasemobile:focus {
     outline-style: none;
     border-radius: 50px;
     background-color: #3F90D8;
@@ -1302,7 +1303,7 @@ i:hover {
 
   /*---faq---*/
   .faq {
-    align-items: flex-start;
+    align-items: center;
   }
 
   .mountain {
@@ -1321,7 +1322,7 @@ i:hover {
   .faq .featuresright {
     display: flex;
     width: 85vw;
-    height: 70vh;
+    height: 65vh;
   }
 
   .faq .textright {
