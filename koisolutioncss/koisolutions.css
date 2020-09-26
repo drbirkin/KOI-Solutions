@@ -625,7 +625,7 @@ i:hover {
     width: 150px;
     height: 48px;
     left: 40vw;
-    bottom: 43vh;
+    bottom: 45vh;
   }
 
   p {
@@ -1152,7 +1152,7 @@ i:hover {
   }
 
   .features {
-    width: 85vw;
+    width: 90vw;
     height: 80vh;
   }
 
@@ -1290,7 +1290,7 @@ i:hover {
   }
 
   .featureslink {
-    width: 88vw;
+    width: 90vw;
     height: 80vh;
   }
 
@@ -1326,7 +1326,7 @@ i:hover {
 
   .faq .featuresright {
     display: flex;
-    width: 88vw;
+    width: 90vw;
     height: 65vh;
   }
 
