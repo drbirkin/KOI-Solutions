@@ -1095,9 +1095,9 @@ i:hover {
   }
 
   .koihomepage {
-    margin-top: 10px;
+    margin-top: 40px;
     display: flex;
-    width: 350px;
+    width: 400px;
   }
 
   .homepage-wave {
@@ -1208,7 +1208,7 @@ i:hover {
   }
 
   .autoswitch {
-    height: 35px;
+    height: 40px;
     width: auto;
   }
 
@@ -1218,7 +1218,7 @@ i:hover {
   }
 
   .inhouse {
-    height: 35px;
+    height: 38px;
     width: auto;
   }
 
@@ -1228,7 +1228,7 @@ i:hover {
   }
 
   .twitter {
-    height: 35px;
+    height: 40px;
     width: auto;
   }
 
