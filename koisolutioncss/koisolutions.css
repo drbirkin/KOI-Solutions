@@ -110,7 +110,6 @@ p {
   border-style: none;
   text-align: right;
   left: 40vw;
-  bottom: 500px;
   bottom: 37vh;
   cursor: pointer;
   -webkit-filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, .2));
@@ -625,7 +624,7 @@ i:hover {
     width: 150px;
     height: 48px;
     left: 40vw;
-    bottom: 45vh;
+    bottom: 37vh;
   }
 
   p {
@@ -780,7 +779,7 @@ i:hover {
     width: 150px;
     height: 50px;
     left: 40vw;
-    bottom: 43vh;
+    bottom: 40vh;
   }
 
   p {
@@ -915,7 +914,68 @@ i:hover {
   }
 }
 
-@media screen and (min-width: 1750px) and (max-width: 2000px) {
+@media screen and (min-width: 1750px) and (max-width: 1940px) {
+
+  /*---navbar---*/
+  .navbar .buttons {
+    width: 500px;
+  }
+
+  /*---homepage---*/
+
+  .purchase {
+    bottom: 35vh;
+  }
+
+  /*---features---*/
+  .features {
+    width: 35vw;
+    height: 75vh;
+  }
+
+  .cats {
+    width: 35vw;
+  }
+
+  .featureslink {
+    width: 35vw;
+    height: 75vh;
+  }
+
+  .featuresright {
+    width: 35vw;
+    height: 75vh;
+  }
+
+  /*---faq---*/
+  .faq .featureslink {
+    width: 35vw;
+    height: 70vh;
+  }
+
+  .faq .featuresright {
+    width: 35vw;
+    height: 705h;
+  }
+
+  .mountain {
+    width: 38vw;
+  }
+
+  .triangle {
+    width: 40px;
+  }
+
+  /*---footer---*/
+  /*  .footer .foxydraft {
+    width: 40px;
+  }*/
+  i {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1950px) and (max-width: 2000px) {
 
   /*---navbar---*/
   .navbar .buttons {
