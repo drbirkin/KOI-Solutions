@@ -12,10 +12,6 @@ p {
   text-align: left;
 }
 
-.mobilebackground {
-  display: none;
-}
-
 /*---navbar horizontal---*/
 .navbar {
   display: flex;
@@ -982,15 +978,6 @@ i:hover {
     overflow-x: hidden;
   }
 
-  .mobilebackground {
-    display: flex;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    background-color: #071E30;
-    z-index: -4;
-  }
-
   /*navbar*/
   .navbar {
     display: none;
@@ -1040,6 +1027,7 @@ i:hover {
     align-items: center;
     background-color: rgba(5, 22, 36, 0.7);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
     width: 100vw;
     height: 100vh;
     transform: translate(0, -999%);
