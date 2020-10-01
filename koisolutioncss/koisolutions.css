@@ -600,7 +600,357 @@ i:hover {
 }
 
 /*---viewport---*/
-@media screen and (max-width: 1500px) {
+@media screen and (min-width: 710px) and (max-width: 1050px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  /*---navbar---*/
+  .navlink {
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 40px;
+    height: auto;
+  }
+
+  .dashboard {
+    font-size: 15px;
+    height: 40px;
+    width: 130px;
+  }
+
+  /*---homepage---*/
+
+  .homepage .backgroundimage {
+    display: none;
+  }
+
+  .koihomepage {
+    position: absolute;
+    display: flex;
+    margin-top: 100px;
+    width: 80vw;
+    z-index: -2;
+  }
+
+  .purchase {
+    border-radius: 14px;
+    width: 180px;
+    height: 65px;
+    left: 60vw;
+    bottom: 45vh;
+  }
+
+  .homepage-wave {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  /*---features---*/
+  .features {
+    width: 43vw;
+    height: 65vh;
+  }
+
+  .cats {
+    width: 43vw;
+  }
+
+  .featureslink {
+    width: 43vw;
+    height: 65vh;
+  }
+
+  .featuresright {
+    width: 43vw;
+    height: 65vh;
+  }
+
+  .catbig1 {
+    width: 350px;
+    height: auto;
+  }
+
+  .catsmall {
+    width: 200px;
+    height: auto;
+  }
+
+  .features .sections {
+    height: 140px;
+  }
+
+  .featureslink .sections {
+    height: 140px;
+  }
+
+  .features .textright {
+    font-size: 18px;
+    padding-top: 0;
+  }
+
+  .features .textleft {
+    font-size: 18px;
+    padding-top: 0;
+  }
+
+  .featureslink .textright {
+    font-size: 18px;
+    padding-top: 0;
+  }
+
+  .featureslink .textleft {
+    font-size: 18px;
+    padding-top: 0;
+  }
+
+  .featuresright .textleft {
+    font-size: 18px;
+    padding-top: 0;
+  }
+
+  span {
+    font-size: 30px;
+  }
+
+  .magicwand {
+    height: 50px;
+    width: auto;
+  }
+
+  .autoswitch {
+    height: 50px;
+    width: auto;
+  }
+
+  .autosearch {
+    height: 50px;
+    width: auto;
+  }
+
+  .inhouse {
+    height: 50px;
+    width: auto;
+  }
+
+  .solutions {
+    height: 50px;
+    width: auto;
+  }
+
+  .twitter {
+    height: 50px;
+    width: auto;
+  }
+
+  .featuresright .script {
+    height: 35px;
+    width: auto;
+  }
+
+  /*---faq---*/
+  .faq .featureslink {
+    width: 43vw;
+    height: 65vh;
+  }
+
+  .faq .featuresright {
+    width: 43vw;
+    height: 65vh;
+  }
+
+  .mountain {
+    width: 40vw;
+  }
+
+  .triangle {
+    width: 40px;
+  }
+
+  /*---footer---*/
+  .footer .foxydraft {
+    width: 40px;
+  }
+
+  i {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1400px) {
+
+  /*---navbar---*/
+  .navlink {
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 40px;
+    height: auto;
+  }
+
+  .dashboard {
+    font-size: 15px;
+    height: 40px;
+    width: 130px;
+  }
+
+  /*---homepage---*/
+  .purchase {
+    border-radius: 14px;
+    width: 150px;
+    height: 48px;
+    left: 40vw;
+    bottom: 43vh;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  /*---features---*/
+  .features {
+    width: 35vw;
+    height: 65vh;
+  }
+
+  .cats {
+    width: 35vw;
+  }
+
+  .featureslink {
+    width: 35vw;
+    height: 65vh;
+  }
+
+  .featuresright {
+    width: 35vw;
+    height: 65vh;
+  }
+
+  .catbig1 {
+    width: 350px;
+    height: auto;
+  }
+
+  .catsmall {
+    width: 200px;
+    height: auto;
+  }
+
+  .features .sections {
+    height: 140px;
+  }
+
+  .featureslink .sections {
+    height: 140px;
+  }
+
+  .features .textright {
+    font-size: 15px;
+    padding-top: 0;
+  }
+
+  .features .textleft {
+    font-size: 15px;
+    padding-top: 0;
+  }
+
+  .featureslink .textright {
+    font-size: 15px;
+    padding-top: 0;
+  }
+
+  .featureslink .textleft {
+    font-size: 15px;
+    padding-top: 0;
+  }
+
+  .featuresright .textleft {
+    font-size: 15px;
+    padding-top: 0;
+  }
+
+  span {
+    font-size: 20px;
+  }
+
+  .magicwand {
+    height: 50px;
+    width: auto;
+  }
+
+  .autoswitch {
+    height: 50px;
+    width: auto;
+  }
+
+  .autosearch {
+    height: 50px;
+    width: auto;
+  }
+
+  .inhouse {
+    height: 50px;
+    width: auto;
+  }
+
+  .solutions {
+    height: 50px;
+    width: auto;
+  }
+
+  .twitter {
+    height: 50px;
+    width: auto;
+  }
+
+  .featuresright .script {
+    height: 35px;
+    width: auto;
+  }
+
+  /*---faq---*/
+  .faq .featureslink {
+    width: 35vw;
+    height: 65vh;
+  }
+
+  .faq .featuresright {
+    width: 35vw;
+    height: 65vh;
+  }
+
+  .mountain {
+    width: 40vw;
+  }
+
+  .triangle {
+    width: 40px;
+  }
+
+  /*---footer---*/
+  .footer .foxydraft {
+    width: 40px;
+  }
+
+  i {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width:1420px) and (max-width: 1500px) {
 
   /*---navbar---*/
   .navlink {
