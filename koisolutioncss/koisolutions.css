@@ -94,7 +94,7 @@ p {
   display: none;
 }
 
-.purchase {
+.sumr__restock-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,27 +116,21 @@ p {
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, .2));
 }
 
-.purchase p {
-  margin: 0;
-  padding: 10px;
-  z-index: 1;
+.sumr__restock-button:disabled {
+  opacity: 100;
 }
 
-.purchase:hover {
+.sumr__restock-button:hover {
   border-radius: 50px;
   background-color: #3F90D8;
   transition: all 1s ease-out;
-  transition-delay: .8s;
+  transition-delay: .5s;
   -webkit-filter: drop-shadow(0px 0px 20px rgba(47, 121, 203, .8));
   filter: drop-shadow(0px 0px 20px rgba(47, 121, 203, .8));
 }
 
-.purchase:focus {
+.sumr__restock-button:focus {
   outline-style: none;
-}
-
-.purchasemobile {
-  display: none;
 }
 
 /*---featurespage---*/
@@ -553,9 +547,6 @@ span {
   opacity: 1;
 }
 
-/*.triangle:hover {
-  opacity: 0.5;
-}*/
 .footer {
   display: flex;
   background-color: #051624;
@@ -637,7 +628,7 @@ i:hover {
     z-index: -2;
   }
 
-  .purchase {
+  .sumr__restock-button {
     border-radius: 14px;
     width: 180px;
     height: 65px;
@@ -807,7 +798,7 @@ i:hover {
   }
 
   /*---homepage---*/
-  .purchase {
+  .sumr__restock-button {
     border-radius: 14px;
     width: 150px;
     height: 48px;
@@ -969,7 +960,7 @@ i:hover {
   }
 
   /*---homepage---*/
-  .purchase {
+  .sumr__restock-button {
     border-radius: 14px;
     width: 150px;
     height: 48px;
@@ -1124,7 +1115,7 @@ i:hover {
   }
 
   /*---homepage---*/
-  .purchase {
+  .sumr__restock-button {
     border-radius: 12px;
     width: 150px;
     height: 50px;
@@ -1273,7 +1264,7 @@ i:hover {
 
   /*---homepage---*/
 
-  .purchase {
+  .sumr__restock-button {
     bottom: 35vh;
   }
 
@@ -1518,22 +1509,18 @@ i:hover {
     z-index: -1;
   }
 
-  .purchase {
-    display: none;
-  }
-
-  .purchasemobile {
-    margin-top: 25px;
+  .sumr__restock-button {
+    margin-top: 35px;
+    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #3371A8;
     color: white;
-    width: 150px;
-    height: 55px;
+    width: 200px;
+    height: 60px;
     border-radius: 18px;
     border-style: none;
-    text-align: right;
     cursor: pointer;
     -webkit-filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, .2));
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, .2));
@@ -1546,7 +1533,7 @@ i:hover {
     border-color: none;
   }
 
-  .purchasemobile:focus {
+  .sumr__restock-button:focus {
     outline-style: none;
     border-radius: 50px;
     background-color: #3F90D8;

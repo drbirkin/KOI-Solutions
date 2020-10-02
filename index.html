@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KOI Solutions</title>
+  <title>Koi Solutions</title>
   <link rel="stylesheet" href="koisolutioncss\koisolutions.css">
+  <link rel="stylesheet" type="text/css" href="koisolutioncss\restock-dialog.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="icon" type="image/icon" href="images\favicon.png" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -30,7 +31,6 @@
       <a href="https://dash.koi.solutions/login" target="_blank"><button class="dashboard" type="button"
           name="button">Dashboard</button></a>
     </div>
-    <!--<a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i></a>-->
   </div>
   <div class="mobile-navbar">
     <div class="header">
@@ -56,12 +56,12 @@
     <div class="backgroundcover">
     </div>
     <img class="koihomepage" data-aos="fade-up-right" src="images\koihomepage.svg" alt="koisolutions">
-    <button data-aos="fade-up" class="purchase" type="button" data-hover name="button">
-      <p>PURCHASE</p>
-    </button>
-    <button class="purchasemobile" type="button" tabindex="0" data-hover name="button">
-      <i class="fas fa-shopping-cart"></i>
-    </button>
+    <restock-button logo_url="https://static.tldashboards.com/koisolutions/logo.png" logo_height="64" logo_width="64"
+      stripe_style='{"style": {"base": {"color": "white", "::placeholder": {"color": "#999"}}}}'
+      sold_out_message="Unfortunately we are now sold out.\nKeep an eye on our Twitter for Restocks."
+      success_message="Welcome to the team\nYou will receive an email with your licence shortly.">
+    </restock-button>
+
     <img class="homepage-wave" src="images\homepage wave.svg" alt="homepagewave">
   </div>
   <!--featurespage-->

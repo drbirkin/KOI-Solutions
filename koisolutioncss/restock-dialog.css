@@ -1,0 +1,259 @@
+:root {
+  --primary-color: #3371A8;
+
+  /*checkout form*/
+  --fields-color:#121212;
+  --form-color:#1b1b1b;
+
+  /*website*/
+  --background-color: #070707;
+  --loader-color: #070707;
+  --scrollbar-color: #101010;
+  --scrollbar-hover: #191919;
+}
+
+
+restock-a a{
+  color: #fff !important;
+  font-size: 11px !important;
+}
+
+restock-a a:hover{
+text-decoration: none;
+}
+
+
+.sumr__restock-dialog-content {
+  position: relative;
+  max-width: 520px;
+  width: 469px;
+  margin-bottom: 5%;
+  background-color: var(--form-color);
+  padding: 37px;
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 9px 9px rgba(0, 0, 0, 0);
+/*transition: visibility .2s linear,opacity .2s linear;*/
+  text-align: center;
+}
+
+[class~=form-row-input]::-webkit-input-placeholder {
+  color: #aab7c4;
+}
+
+::placeholder{
+  color: #999;
+}
+
+.sumr__restock-dialog-logo {
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+
+/*-----------fields-----------*/
+
+.sumr__restock-dialog-email {
+  box-sizing: border-box;
+  height: 40px;
+  padding: 12px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: var(--fields-color);
+  color: #ffffff;
+  font-size: 14.5px;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 9px;
+  outline: none;
+}
+
+.StripeElement {
+  box-sizing: border-box;
+  height: 40px;
+  padding: 11px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: var(--fields-color);
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.StripeElement--invalid {
+  border-color: #fc6656
+}
+
+/*-----------buttons-----------*/
+
+.sumr__restock-dialog-submit-button {
+  background: var(--primary-color);
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  border-radius: 100px;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 36px;
+  border: 0px solid var(--primary-color);
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+}
+
+.sumr__restock-dialog-submit-button:hover {
+  filter: brightness(0.8);
+}
+
+.sumr__restock-dialog-submit-button:disabled {
+opacity: 100;
+}
+
+.sumr__restock-dialog-dashboard-button {
+  background: var(--primary-color);
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  border-radius: 100px;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 36px;
+  border: 0px solid var(--primary-color);
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+}
+
+.sumr__restock-dialog-dashboard-button:hover {
+  filter: brightness(0.8);
+}
+
+.sumr__restock-dialog-dashboard-button:disabled {
+opacity: 100;
+}
+
+.sumr__restock-dialog-sold-out-button {
+  background: var(--primary-color);
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  border-radius: 100px;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 36px;
+  border: 0px solid var(--primary-color);
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+}
+
+.sumr__restock-dialog-sold-out-button:hover {
+  filter: brightness(0.8);
+}
+
+.sumr__restock-dialog-sold-out-button:disabled {
+opacity: 100;
+}
+
+.sumr__restock-dialog-trial {
+  font-size: 11.5px;
+  color: #a3a3a3;
+  padding-top: 5px;
+  margin-bottom: -5px;
+}
+
+.sumr__restock-terms-of-service {
+  font-size: 11px;
+  color: #808080;
+  padding-top: 10px;
+}
+
+/*-----------end-----------*/
+
+.sumr__restock-dialog-alert {
+  background: transparent;
+  margin-bottom: 10px;
+  margin-top: -17px;
+}
+
+.sumr__restock-dialog-alert.success {
+  background: transparent;
+}
+
+.sumr__restock-dialog-alert.warning {
+  background: transparent;
+}
+
+.sumr__restock-dialog-overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: rgb(0, 0, 0, 0.75);
+  z-index: 999;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+}
+
+.sumr__restock-dialog {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 769px) {
+  .sumr__restock-dialog-content {
+    width: 350px;
+  }
+}
+
+.sumr__restock-dialog-titel {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.sumr__restock-dialog-close-button {
+  border: 0;
+  background: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.sumr__restock-dialog-close-button::before, .sumr__restock-dialog-close-button::after {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  display: block;
+  width: 2px;
+  height: 15px;
+  content: '';
+  border-radius: 4px;
+  background-color: #999;
+}
+
+.sumr__restock-dialog-close-button::before {
+  transform: rotate(45deg);
+}
+
+.sumr__restock-dialog-close-button::after {
+  transform: rotate(-45deg);
+}
